@@ -1,0 +1,54 @@
+.container {
+    width: 1080px;
+    height: 600px;
+    margin: 0px auto;
+}
+
+.back-div{
+    padding-left: 60px;
+    background-color:#575F6C;
+    height: 600px;
+    width: 700px;
+    top: 10%;
+    left: 21%;
+    box-shadow: 10px 15px 18px rgba(0,0,0,0.16);
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    position: absolute;
+}
+
+.brand-heading {
+    color: #c0bebb;
+    font-size: 12px;
+}
+
+.order-total-heading {
+    color: #c0bebb;
+    font-size: 12px;
+}
+
+hr {
+    width: 200px;
+    margin: 0px;
+    opacity: 0.5;
+}
+
+.product-div {
+    margin-bottom:150px;
+}
+
+.price-div p {
+    font-size: 50px;
+    margin: 0px;
+    text-shadow: 5px 10px 18px  rgba(0,0,0,0.35);
+}
+
+.visa-image {
+    background-image: url("../../images/visa.png");
+    background-size: cover;
+    width: 300px;
+    height: 150px;
+    background-position-y: -100px;
+    margin-left: -63px;
+    opacity: 0.05;
+}

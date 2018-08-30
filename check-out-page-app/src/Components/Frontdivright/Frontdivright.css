@@ -1,0 +1,126 @@
+.front-div-right{
+    float: left;
+    color: #BDBDBF;
+    font-size: 11px;
+}
+
+.label-div{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+.small-visa-image{
+    background-image: url("../../images/visa.png");
+    background-size: cover;
+    width: 75px;
+    height: 80px;
+    opacity: 0.5;
+    margin-left: 160px;
+    margin-top: -40px;
+}
+
+.input-style{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 15em;
+    outline: none;
+    color: #989AA0;
+    font-size: 15px;
+}
+
+.card-div {
+    margin-top: 30px;
+    margin-bottom: 30px; 
+}
+
+
+select{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #eee;
+    color: #989AA0;
+    outline: none;
+    padding-bottom: 1.2px;
+}
+
+.ccv-input {
+    width: 3em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #989AA0;
+    outline: none;
+}
+.labels-div {
+    margin-bottom: 10px;
+}
+
+.labels-div label + label{
+    margin-left: 135px;
+}
+
+.expiration-div span + span{
+    margin-left: 23px;
+}
+
+.ccv-input {
+    margin-top: -4px;
+}
+
+#submit_button {
+    z-index: 1;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 110px;
+    width: 100px;
+    height: 40px;
+    background-color: #F1966D;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.16);
+}
+
+/* checkbox styling */
+
+/* #checkbox_id{
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #575F6C;
+    opacity: 0.5;
+  }
+
+  .checkmark:after {
+      content: '';
+      display: none;
+  }
+
+  #checkbox_id:checked ~ .checkmark:after {
+      display: block;
+  }
+
+  #checkbox_id .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  } */

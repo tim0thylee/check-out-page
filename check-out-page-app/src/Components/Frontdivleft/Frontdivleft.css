@@ -1,0 +1,70 @@
+.front-div-left {
+    font-size: 12px;
+    color: #BDBDBF;
+    float: left;
+}
+
+.glove-image-div {
+    background-image: url("../../images/gloves.jpg");
+    height: 180px;
+    width: 300px;
+    background-size: cover;
+    margin: auto;
+}
+
+.reviews-div a{
+    text-decoration: none;
+    color: #BDBDBF;
+}
+
+.fa-search{
+    margin-right: 5px;
+}
+
+.info-bar {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.star-rating-div{
+    text-align: center;
+    color: gold;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.reviews-div {
+    text-align: center;
+}
+
+.tool-tip-span {
+    visibility: hidden;
+    width: 120px;
+    background-color: #BDBDBF;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 40%;
+    margin-left: -130px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px;
+}
+
+.tool-tip-span::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #BDBDBF transparent transparent transparent;
+}
+
+.info-bar:hover .tool-tip-span {
+    visibility: visible;
+}
