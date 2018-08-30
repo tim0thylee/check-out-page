@@ -24,7 +24,13 @@ class Frontdivright extends Component  {
 
     handleSubmit(event) {
         event.preventDefault();
-        alert("you changed the state!" + this.state.month + this.state.year + this.state.credit + this.state.name + this.state.ccv + this.state.saved);
+        alert(`You changed the state!
+        Month: ${this.state.month} 
+        Year: ${this.state.year}  
+        Credit: ${this.state.credit}  
+        Name: ${this.state.name}  
+        CCV: ${this.state.ccv}  
+        Info Saved: ${this.state.saved}`);
         
     }
 
