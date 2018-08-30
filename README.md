@@ -4,7 +4,7 @@ A checkout page for purchasing items through a fictional fitness website. The pu
 
 [Click here to see!](https://check-out-page-app-yupzktlkni.now.sh/)
 
-![checkout page](check-out-page/check-out-page-app/src/images/browserimage.png)
+![checkout page](https://raw.githubusercontent.com/tim0thylee/check-out-page/check-out-page-app/src/images/browserimage.png)
 
 Technologies Used:
 * HTML5
